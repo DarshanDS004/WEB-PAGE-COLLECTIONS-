@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Organization Web Page</title>
+</head>
+<body>
+<header>
+<h1>Welcome to Our Organization</h1>
+</header>
+<div>
+<h3>About Us</h3>
+<h3>Contact info</h3>
+<p>Email: 1234@gmail.com</p>
+<br>
+<p>Phone: 1234567890</p>
+</div>
+<div>
+<h3>Our Head office</h3>
+<a href="Head office.com">View head office</a>
+</div>
+<footer>
+<p>&copy; 2024 Our Organization. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
