@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Style Sheet Examples</title>
+<! -- Embedded Styles -->
+<style>
+P {
+color: red;
+font-size: 20px;}
+</style>
+<! - External Style Sheet -->
+<link rel="nofollow" type="text/css" href=''>
+</head>
+<body>
+<! -- Inline Styles -→>
+<p style="color: blue; font-size: 24px;">This is a paragraph with has inline styles. </p>
+<p>This is a paragraph styled with has embedded styles.</p> <p>This is a paragraph styled with has an external style sheet.</p>
+</body>
+</html>
