@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TIME TABLE</title>
+<style>
+table,th,td{
+border:1px solid black;
+border-collapse:collapse;
+}
+
+table:nth-child(2) {
+  background-color: green;
+}
+
+th,td{
+padding-left:10px;
+padding-bottom:20px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<table align="center" width:70% style="height:450px">
+<tr>
+<td rowspan='1' align="center">
+<b >DAYS</b>
+</td>
+<td colspan='1' align="center">
+<b>8.00-9.00am</b>
+</td>
+<td colspan='1' align="center">
+<b>9.00-10.00am</b>
+</td>
+<td colspan='1' align="center">
+<b>10.30-11.30am</b>
+</td>
+<td colspan='1' align="center">
+<b>11.30-12.30pm</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='1' align="center">
+<b>2.00-3.00pm</b>
+</td>
+<td colspan='1' align="center">
+<b>3.00-4.00pm</b>
+</td>
+<td colspan='1' align="center">
+<b>4.00-5.00pm</b>
+</td>
+</tr>
+<tr>
+<td rowspan='1' align="center">
+<b >MONDAY</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='1' align="center">
+<b>DS</b>
+</td>
+<td colspan='1' align="center">
+<b>WT</b>
+</td>
+<td colspan='1' align="center">
+<b>DC-CO</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='1' align="center">
+<b>UNIX(T)</b>
+</td>
+<td colspan='2' align="center">
+<b>UNIX LAB</b>
+</td>
+</tr>
+<tr>
+<td rowspan='1' align="center">
+<b >TUESDAY</b>
+</td>
+<td colspan='1' align="center">
+<b>WT</b>
+</td>
+<td colspan='1' align="center">
+<b>DC-CO</b>
+</td>
+<td colspan='1' align="center">
+<b>M3</b>
+</td>
+<td colspan='1' align="center">
+<b>OOPS(C++/JAVA)</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='2' align="center">
+<b>SSH (E and F)</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+</tr>
+<tr>
+<td rowspan='1' align="center">
+<b >WEDNESDAY</b>
+</td>
+<td colspan='1' align="center">
+<b>OOPS(C++/JAVA)</b>
+</td>
+<td colspan='1' align="center">
+<b>DC-CO</b>
+</td>
+<td colspan='1' align="center">
+<b>DS</b>
+</td>
+<td colspan='1' align="center">
+<b>M3</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='1' align="center">
+<b>DC-CO(SH)</b>
+</td>
+<td colspan='1' align="center">
+<b>DS(SH)</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+</tr>
+<tr>
+<td rowspan='1' align="center">
+<b >THURSDAY</b>
+</td>
+<td colspan='2' align="center">
+<b>DC-CO LAB[FB1]
+<br>
+DS-LAB [FB2]</b>
+</td>
+<td colspan='2' align="center">
+<b>WT LAB[F1]</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='2' align="center">
+<b>DS-LAB [FB1]
+<br>
+DC-CO LAB[FB3]</b>
+</td>
+<td colspan='1' align="center">
+<b>OOPS(C++/JAVA)[SH]</b>
+</td>
+</tr>
+<tr>
+<td rowspan='1' align="center">
+<b >FRIDAY</b>
+</td>
+<td colspan='1' align="center">
+<b>DS</b>
+</td>
+<td colspan='1' align="center">
+<b>WT</b>
+</td>
+<td colspan='2' align="center">
+<b>PLACEMENT ACTIVITY</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='2' align="center">
+<b>WT LAB[F2]</b>
+</td>
+<td colspan='1' align="center">
+<b>WT (SH)</b>
+</td>
+</tr>
+<tr>
+<td rowspan='1' align="center">
+<b >SATURDAY</b>
+</td>
+<td colspan='2' align="center">
+<b>DC-CO LAB [FB2]
+<br>
+DS-LAB [FB3]</b>
+</td>
+<td colspan='1' align="center">
+<b>M3</b>
+</td>
+<td colspan='1' align="center">
+<b>OOPS(C++/JAVA)</b>
+</td>
+<td colspan='1' align="center">
+<b></b>
+</td>
+<td colspan='3' align="center">
+<b></b>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
