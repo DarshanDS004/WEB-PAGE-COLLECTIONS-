@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<head>
+<title>Job Application</title>
+<style>
+fieldset {
+  background-color: #FF9A8A;
+}
+legend {
+  background-color: black;
+  color: white;
+}
+
+input {
+  5px;
+}
+</style>
+</head>
+<body>
+<h1>Job Application</h1>
+<form action="/Submit application"method="Post">
+<!Personal Information>
+<fieldset>
+<legend>Personal Information</legend>
+<label for="firstname">Firstname</label>
+<input type="text"id="firstname"name="firstname"required>
+<br>
+<label for="lastname">Lastname</label>
+<input type="text"id="lastname"name="lastname"required>
+<br>
+<label for="Date of birth">Date of birth</label>
+<input type="date"id="Date of birth"name="Date of birth"required>
+<br>
+<label for="adress">Adress</label>
+<input type="text"id="adress"name="adress"required>
+<br>
+<label for="Qualifications">Qualifications</label>
+<input type="text"id="Qualifications"name="Qualifications"required>
+<br>
+<label for="Contact information">Contact information</label>
+<input type="text"id="Contact information"name="Contact information"required>
+<br>
+<input type="submit" value="Submit">
+</fieldset>
+</body>
+</html>
+
