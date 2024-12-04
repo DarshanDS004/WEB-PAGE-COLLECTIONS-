@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TABLE HTML PAGE</title>
+<style>
+table, th, td {
+border:1px solid black;
+border-collapse :collapse;
+
+}
+
+table:nth-child(2) {
+  background-color: green;
+}
+
+th, td {
+padding-left : 10px;
+padding-bottom : 20px;
+}
+
+table {
+border-spacing : 30px;
+}
+
+</style>
+</head>
+
+<body>
+<h3><center>Tables in HTML</center></h3>
+<table align="center" width="70%" style="height:450px">
+<tr>
+<td rowspan="9" align="center" bgcolor=DEEEEE>
+<b>Department</b>
+<td rowspan="3" align="center" bgcolor=ff3333>
+<b>Sem 1</b>
+</td>
+<td padding:15px>
+<em>Subject A</em>
+</td>
+</tr>
+<tr>
+<td><em>Subject B</em></td>
+</tr>
+<tr>
+<td><em>Subject C</em></td>
+</tr>
+
+<tr>
+<td rowspan="3" align="center" bgcolor=1E8BA0>
+<b>Sem 2</b>
+</td>
+<td padding:15px>
+<em>Subject E</em>
+</td>
+</tr>
+<tr>
+<td><em>Subject F</em></td>
+</tr>
+<tr>
+<td><em>Subject G</em></td>
+</tr>
+
+<tr>
+<td rowspan="3" align="center" bgcolor=3E5BA0>
+<b>Sem 3</b>
+</td>
+<td padding:15px>
+<em>Subject H</em>
+</td>
+</tr>
+<tr>
+<td><em>Subject I</em></td>
+</tr>
+<tr>
+<td><em>Subject J</em></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
+                            
